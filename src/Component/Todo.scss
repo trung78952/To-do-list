@@ -1,0 +1,87 @@
+.form {
+    background-color: #82d4e9;
+    border-radius: 20px;
+    padding: 2rem;
+    align-items: center;
+    justify-items: center;
+    margin: 2rem 2rem 1rem 2rem;
+    //width: 80%;
+
+    .add-form {
+        display: flex;
+        font-size: 20px;
+        //padding: 10px 10px 10px 10px;
+        align-items: center;
+        justify-content: flex-end;
+        width: 80%;
+
+    }
+
+    input {
+        font-size:large;
+        border-radius: 10px;
+        border-style: double;
+    }
+
+    button {
+        width: 7rem;
+        height: 2rem;
+        border-radius: 10px;
+        border-style: none;
+    }
+}
+
+.list {
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid gray;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin: 0 1rem 0 1rem;
+
+    button {
+        text-align: end;
+
+    }
+
+    .text {
+        width: 80%;
+        text-align: start;
+        padding-left: 1rem;
+    }
+}
+
+.list:hover {
+    background-color: rgb(235, 133, 218);
+}
+
+.full-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.btn-dele:hover {
+    background-color: red;
+    border-color: red;
+}
+
+.btn-update:hover {
+    background-color: green;
+    border-color: green;
+}
+
+.btn-add:hover {
+    background-color: black;
+    color: aliceblue;
+    cursor: pointer;
+}
+.full-list{
+    background-color: rgb(74, 135, 216);
+    padding-bottom: 2rem;
+    border-radius: 20px;
+    box-shadow: 2px 2px rgb(48, 67, 102);
+    margin-bottom: 10rem;
+   width: 632px;
+}
