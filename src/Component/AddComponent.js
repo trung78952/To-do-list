@@ -16,11 +16,11 @@ class AddComponent extends React.Component {
         })
     }
     handleAdd = () => {
-        let add = this.props.addTodo
+        let addTodo = this.props.addTodo
         if (!this.state.time || !this.state.jobs) {
             alert('Fill the text !')
         } else {
-            add({
+            addTodo({
                 time: this.state.time,
                 note: this.state.jobs
             })

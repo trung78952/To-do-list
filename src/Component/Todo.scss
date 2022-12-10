@@ -35,7 +35,7 @@
     width: 600px;
     display: flex;
     justify-content: space-between;
-    border-bottom: 1px solid gray;
+    border-bottom: 1px solid rgb(88, 87, 87);
     padding-top: 1rem;
     padding-bottom: 1rem;
     margin: 0 1rem 0 1rem;
@@ -49,6 +49,10 @@
         width: 80%;
         text-align: start;
         padding-left: 1rem;
+        .update{
+            font-size: large;
+            border-style: none;
+        }
     }
 }
 
@@ -68,8 +72,8 @@
 }
 
 .btn-update:hover {
-    background-color: green;
-    border-color: green;
+    background-color: rgb(86, 163, 86);
+    border-color: rgb(86, 163, 86);
 }
 
 .btn-add:hover {

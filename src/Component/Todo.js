@@ -7,9 +7,9 @@ import { toast } from 'react-toastify';
 class Todo extends React.Component {
     state = {
         Jobtodo: [
-            { time: 'monday', note: 'fix bugs' },
-            { time: 'monday', note: 'code' },
-            { time: 'sunday', note: 'fix bugs,dev' }
+            { time: '7:00', note: 'fix bugs' },
+            { time: '8:00', note: 'code' },
+            { time: '12:00', note: 'fix bugs,dev' }
 
         ]
     }
